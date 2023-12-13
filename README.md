@@ -1,3 +1,16 @@
+## Table of Contents
+
+- [Wikipedia Page Summarizer](#wikipedia-page-summarizer)
+- [Coming Soon](#coming-soon)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+  1. [Clone or Download the Repository](#1-clone-or-download-the-repository)
+  2. [Create a Virtual Environment (Optional but Recommended)](#2-create-a-virtual-environment-optional-but-recommended)
+  3. [Install Dependencies](#3-install-dependencies)
+  4. [Run the Script](#4-run-the-script)
+  5. [View the Results](#5-view-the-results)
+- [License](#license)
+
 # Wikipedia Page Summarizer
 
 This Python script allows you to fetch and summarize content from Wikipedia articles using the Wikipedia API and the BERT Extractive Summarizer. It also saves the fetched text and the generated summary to separate text files.
@@ -5,6 +18,17 @@ This Python script allows you to fetch and summarize content from Wikipedia arti
 Please be nice to wikipedia and me, as the code uses their free API, and an agent with my email specified. If you want to run the code, please modify it with your own information in the custom user agent variable.
 
 Currently the topic is hard-coded to be "Dog".
+
+# Coming Soon
+- More organized output, possibly a database for storing pages and summaries
+- Options to choose between summarization models
+- Exploring the Wikipedia API for 
+  - A "parseable" output, e.g. sections, subsections, references, etc.
+  - Search functionality, checking if a similar page exists, etc.
+- Creating a UI for the script allowing for: 
+    - Tracking/saving summaries
+    - Summarizing using a different model
+
 
 ### Prerequisites
 Ensure that you have Python and pip installed on your system before creating the virtual environment and installing dependencies.
