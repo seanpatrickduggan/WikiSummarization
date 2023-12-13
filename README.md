@@ -36,56 +36,56 @@ Ensure that you have Python and pip installed on your system before creating the
 ## Usage
 
 1. **Clone or Download the Repository:**
-   - Clone or download this repository to your local machine:
+- Clone or download this repository to your local machine:
 
-     ```bash
-     git clone https://github.com/seanpatrickduggan/WikiSummarization.git
-     ```
+```bash
+git clone https://github.com/seanpatrickduggan/WikiSummarization.git
+```
 
 2. **Create a Virtual Environment (Optional but Recommended):**
-   - It's a good practice to create a virtual environment to isolate project dependencies. Open your terminal and navigate to the project directory:
+- It's a good practice to create a virtual environment to isolate project dependencies. Open your terminal and navigate to the project directory:
 
-     ```bash
-     cd WikiSummarization
-     ```
+```bash
+cd WikiSummarization
+```
 
-   - Create a virtual environment:
+- Create a virtual environment:
 
-     ```bash
-     python -m venv venv
-     ```
+```bash
+python -m venv venv
+```
 
-   - Activate the virtual environment:
+- Activate the virtual environment:
 
-     On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
+On Windows:
+```bash
+venv\Scripts\activate
+```
 
-     On macOS and Linux:
-     ```bash
-     source venv/bin/activate
-     ```
+On macOS and Linux:
+```bash
+source venv/bin/activate
+```
 
 3. **Install Dependencies:**
-   - With the virtual environment activated, install the required Python libraries from the `requirements.txt` file:
+- With the virtual environment activated, install the required Python libraries from the `requirements.txt` file:
 
-     ```bash
-     pip install -r requirements.txt
-     ```
+```bash
+pip install -r requirements.txt
+```
 
-   This will install the necessary libraries, including Wikipedia-API, BERT Extractive Summarizer, and Torch.
+This will install the necessary libraries, including Wikipedia-API, BERT Extractive Summarizer, and Torch.
 
 4. **Run the Script:**
-   - Modify the `topic` variable in the `main` function of `WikiSummarization.py` to specify the Wikipedia topic you want to summarize.
-   - Run the script:
+- Modify the `topic` variable in the `main` function of `WikiSummarization.py` to specify the Wikipedia topic you want to summarize.
+- Run the script:
 
-     ```bash
-     python WikiSummarization.py
-     ```
+```bash
+python WikiSummarization.py
+```
 
 5. **View the Results:**
-   - The script will fetch the Wikipedia page for the specified topic, extract the text content, and save it to a file named `text.txt`. It will then use the BERT Extractive Summarizer to generate a summary and save it to a file named `summary.txt`.
+- The script will fetch the Wikipedia page for the specified topic, extract the text content, and save it to a file named `text.txt`. It will then use the BERT Extractive Summarizer to generate a summary and save it to a file named `summary.txt`.
 
 ## License
 
